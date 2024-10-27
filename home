@@ -1,0 +1,107 @@
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Steph Minaya - Public Speaker & Advocate</title>
+<style>
+/* Basic Reset */ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Accessibility Controls */ .accessibility-controls {
+position: fixed;
+top: 10px;
+right: 10px; background: #f3f3f3; padding: 5px 10px; border-radius: 5px;
+}
+/* Color Palette */ body {
+font-family: Arial, sans-serif; background-color: #F5F3EB; color: #333;
+line-height: 1.6;
+}
+h1, h2, h3 {
+color: #0B3D36; }
+.section {
+padding: 20px;
+margin-bottom: 10px; border-bottom: 2px solid #E5E5E5;
+} a{
+color: #0B3D36;
+text-decoration: none; }
+a:hover {
+
+ text-decoration: underline; }
+/* Navigation */ .nav {
+background-color: #5A473A; padding: 15px;
+text-align: center;
+}
+.nav a {
+color: #FFFFFF;
+margin: 0 15px; }
+/* Accessibility Options */ .font-toggle button {
+margin: 0 5px; padding: 5px; font-size: 1rem;
+}
+/* Layout */ .container {
+max-width: 800px; margin: auto; padding: 20px;
+}
+/* Styling for Profile Image Placeholder */ .profile-img {
+width: 150px;
+height: 150px; background-color: #DDD; border-radius: 50%; display: block;
+margin: 20px auto;
+}
+/* Button */ .button {
+display: inline-block; padding: 10px 15px; background-color: #0B3D36; color: #FFFFFF;
+
+ text-align: center; border-radius: 5px; margin-top: 15px;
+} </style>
+</head> <body>
+<!-- Accessibility Controls -->
+<div class="accessibility-controls font-toggle">
+<button onclick="changeFont('normal')">Default Font</button>
+<button onclick="changeFont('opendyslexia')">Open Dyslexia</button>
+<button onclick="document.body.style.fontSize='1.1em'">Increase Font Size</button> <button onclick="document.body.style.fontWeight='bold'">Bold Text</button>
+</div>
+<!-- Navigation --> <div class="nav">
+<a href="#about">About Me</a>
+<a href="#up-to">What I’m Up To</a> <a href="#contact">Contact</a>
+</div>
+<div class="container"> <!-- Hero Section --> <div class="section">
+<h1>Welcome to My Story</h1>
+<p>Thank you, [name], and welcome to Dallas for the 2024 IDA DyslexiaCon! I’m Steph, Head of Operations at Superpower Mentors, a 27-year-old ADHD, dyslexic, and autistic woman who LOVES birds. Here, you’ll find my journey, from my early struggles to discovering my superpowers, and insights into the neurodiverse world.</p>
+</div>
+<!-- About Me Section -->
+<div class="section" id="about">
+<h2>About Me</h2>
+<div class="profile-img">[Image Placeholder]</div> <!-- Placeholder for your profile image -->
+<p>I'm Steph Minaya, a polyglot who speaks English, Spanish, and Italian. My passion for learning and growing has been shaped by my ADHD, dyslexia, and autism. This journey has given me unique tools, like transforming vibrant bird colors into language, allowing me to express myself in ways I never thought possible.</p>
+
+ <p>I've faced challenges but overcame them through resilience, creativity, and mentorship. I'd love to share my story and connect with your community to inspire neurodiverse students to thrive.</p>
+<p><a href="#contact" class="button">Book Me for Speaking</a></p>
+<p>[Video Placeholder]</p> <!-- Placeholder for your About Me video --> </div>
+<!-- What I’m Up To Section --> <div class="section" id="up-to"> <h2>What I’m Up To</h2>
+<p>Explore my latest work and passions in the sections below.</p>
+<h3>Writing</h3>
+<p>Current writing projects focused on neurodiversity, education, and personal growth.</p>
+<p><a href="#contact" class="button">Book Me to Talk About Writing</a></p>
+<h3>Public Speaking</h3>
+<p>Sharing my story and insights with students, educators, and organizations.</p> <p><a href="#contact" class="button">Book Me for Speaking</a></p>
+<h3>Operations</h3>
+<p>Leading operations to support impactful educational programs for neurodiverse students.</p>
+<p><a href="#contact" class="button">Book Me to Talk About Operations</a></p>
+<h3>Language</h3>
+<p>My journey as a polyglot, sharing the beauty of language learning.</p>
+<p><a href="#contact" class="button">Book Me to Talk About Languages</a></p>
+<h3>Birds</h3>
+<p>My passion for bird calls and how this fascination has shaped my life and learning.</p>
+<p><a href="#contact" class="button">Book Me to Talk About Birds</a></p> </div>
+<!-- Contact Section -->
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Let's connect! Reach out to me through the links below.</p>
+<p><a href="https://www.linkedin.com/in/stephtminaya" target="_blank">LinkedIn</a> |
+<a href="https://www.tiktok.com/@Learnaboutbirds" target="_blank">TikTok</a></p> </div>
+</div>
+
+ <!-- JavaScript for Font Toggle --> <script>
+function changeFont(font) {
+if (font === 'opendyslexia') {
+document.body.style.fontFamily = 'OpenDyslexic, Arial, sans-serif'; } else {
+document.body.style.fontFamily = 'Arial, sans-serif'; }
+} </script>
+</body> </html>
